@@ -2,7 +2,7 @@
 
 ## Objective
 
-In this project, I built a phishing simulation lab to understand how phishing attacks work and how to defend against them. I used a tool called GoPhish in a safe, virtual environment to create and manage fake phishing emails. This hands-on setup helped me learn how attackers design phishing campaigns and how organizations can use training to improve security awareness
+In this project, I built a phishing simulation lab to understand how phishing attacks work and how to defend against them. I used a tool called GoPhish in a safe, virtual environment to create and manage fake phishing emails. This hands-on setup helped me learn how attackers design phishing campaigns and steps organizations can illustrate during trainings to improve security awareness.
 
 ### Skills Learned
 
