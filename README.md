@@ -7,7 +7,7 @@ The aim of this project is to build a practical phishing campaign simulation usi
 
 - Install and configure GoPhish on Ubuntu
 - How phishing emails are created using custom templates
-- Basics of social engineering and how phishing tricks users
+- Understand the basics of social engineering and how phishing tricks users
 - Create a safe environment to run security tests.
 - Build a phishing landing pages to simulate real attacks
 - Run a phishing campaign and monitor user responses
