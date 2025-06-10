@@ -14,7 +14,7 @@ The aim of this project is to build a practical phishing campaign simulation usi
 - How to analyze the results to understand user behavior
 
 ### Tools Used:
-- GoPhish – An open-source tool for creating phishing simulations
+- GoPhish – A tool used for creating phishing simulations
 - Ubuntu Linux – Used as the operating system to run GoPhish
 - VirtualBox – To set up and manage a virtual machine for safe testing
 - Web Browser – To interact with GoPhish interface
