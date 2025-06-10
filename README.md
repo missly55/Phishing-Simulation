@@ -1,7 +1,7 @@
 # Phishing Awareness Simulation Lab with GoPhish
 
 ## Objective:
-The objective of this project is to build a practical phishing campaign simulation using GoPhish to understand how phishing attacks work and steps organizations can illustrate during trainings to educate users of the danger of phishing attacks.
+The aim of this project is to build a practical phishing campaign simulation using GoPhish to understand how phishing attacks work and steps organizations can illustrate during trainings to educate users of the danger of phishing attacks.
 
 ### Skills Learned:
 
