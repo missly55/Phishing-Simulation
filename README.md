@@ -1,10 +1,9 @@
 # Phishing Awareness Simulation Lab with GoPhish
 
-## Objective
+## Objective:
+The objective of this project is to build a practical phishing campaign simulation using GoPhish to understand how phishing attacks work and steps organizations can illustrate during trainings to educate users of the danger of phishing attacks.
 
-In this project, I built a phishing simulation lab to understand how phishing attacks work and how to defend against them. I used a tool called GoPhish in a safe, virtual environment to create and manage fake phishing emails. This hands-on setup helped me learn how attackers design phishing campaigns and steps organizations can illustrate during trainings to improve security awareness.
-
-### Skills Learned
+### Skills Learned:
 
 - Install and configure GoPhish on Ubuntu
 - How phishing emails are created using custom templates
@@ -14,13 +13,13 @@ In this project, I built a phishing simulation lab to understand how phishing at
 - Run a phishing campaign and monitor user responses
 - How to analyze the results to understand user behavior
 
-### Tools Used
+### Tools Used:
 - GoPhish – An open-source tool for creating phishing simulations
 - Ubuntu Linux – Used as the operating system to run GoPhish
 - VirtualBox – To set up and manage a virtual machine for safe testing
 - Web Browser – To interact with GoPhish interface
 
-## Steps
+## Steps:
 drag & drop screenshots here or use imgur and reference them using imgsrc
 
 Every screenshot should have some text explaining what the screenshot is about.
