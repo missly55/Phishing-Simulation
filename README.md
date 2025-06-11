@@ -61,7 +61,8 @@ Step 4: Lauch the GoPhish using terminal. (requires admin permission)
 
 
 **Tells if the GoPhish is running correctly:**
-<pre lang="markdown"> ```bash starting phishing server at http://0.0.0.0:80 starting admin server at https://127.0.0.1:3333 ``` </pre>
+<pre lang="markdown"> ```bash starting phishing server at http://0.0.0.0:80 
+     starting admin server at https://127.0.0.1:3333 ``` </pre>
 
 starting phishing server at http://0.0.0.0:80
 starting admin server at https://127.0.0.1:3333`
