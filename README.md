@@ -80,6 +80,12 @@ Step 5: Log Into GoPhish using Web browser:
 
 
 
+
+
+
+
+continue
+
 - Downloads folder > `gophish-v0.12.1-linux-64bit.zip` > Right-Click > Open Terminal.
 
 
