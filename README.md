@@ -67,7 +67,7 @@ Step 4: Lauch the GoPhish using terminal. (requires admin permission)
 
 
 starting phishing server at http://0.0.0.0:80
-starting admin server at https://127.0.0.1:3333`
+starting admin server at https://127.0.0.1:3333
 
 Step 5: Log Into GoPhish using Web browser:
 
