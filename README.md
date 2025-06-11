@@ -29,10 +29,10 @@ Step 1: Set Up GoPhish on Ubuntu
 
 
 
-Step 2: In the downloads folder the file **gophish-v0.12.1-linux-64bit.zip**  was installed. You want to open the file without the .zip. 
+Step 2: In the downloads folder the file `gophish-v0.12.1-linux-64bit.zip`  was installed. You want to open the file without the .zip. 
 
 1. Open Files → Go to Downloads
-2. Right-click gophish-v0.12.1-linux-64bit.zip
+2. Right-click `gophish-v0.12.1-linux-64bit.zip`
 3. Select "Extract Here"
 
 *Ref 2: File Extraction*
@@ -40,7 +40,7 @@ Step 2: In the downloads folder the file **gophish-v0.12.1-linux-64bit.zip**  wa
 
 Step 3: Give GoPhish Permission to Run
 
-- Navigate to Downloads > gophish-v0.12.1-linux-64bit > Right-click the gophish file.
+- Navigate to Downloads > `gophish-v0.12.1-linux-64bit.zip` > Right-click the gophish file.
 - Select “Properties” > Permissions tab > Check the box that says “Allow executing file as a program”
 
 *Ref 3: Permission Setup*
@@ -54,15 +54,17 @@ Step 4: Lauch the GoPhish using terminal. (requires admin permission)
 *Ref 4: Error running GoPhish*
 
 
-- Open terminal in the GoPhish folder and run command _sudo ./gophish_ 
+- Open terminal in the GoPhish folder and run command `sudo ./gophish` to start the program.
 
  *Ref 5: Successful running of GoPhish*
 
 
 
 **Tells if the GoPhish is running correctly:**
+<pre lang="markdown"> ```bash starting phishing server at http://0.0.0.0:80 starting admin server at https://127.0.0.1:3333 ``` </pre>
+
 starting phishing server at http://0.0.0.0:80
-starting admin server at https://127.0.0.1:3333
+starting admin server at https://127.0.0.1:3333`
 
 Step 5: Log Into GoPhish using Web browser:
 
