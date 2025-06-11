@@ -19,12 +19,13 @@ The aim of this project is to build a practical phishing campaign simulation usi
 - VirtualBox – To set up and manage a virtual machine for safe testing
 - Web Browser – To interact with GoPhish interface
 
-## Steps:
-Step 1: Setup GoPhish in Ubuntu
+### Steps:
+Step 1: Set Up GoPhish on Ubuntu
 
-Download and Install GoPhish Using the web browser github.com/gophish/gophish/releases.
+1. Navigate to [GoPhish Releases](https://github.com/gophish/gophish/releases)
+2. Download `gophish-v0.12.1-linux-64bit.zip`
 
-*Ref 1: Download of GoPhish*
+*Ref 1: GoPhish Download*
 
 
 
@@ -47,6 +48,9 @@ Step 3: Give GoPhish Permission to Run
 
 Step 4: Lauch the GoPhish using terminal. (requires admin permission)
 
+*Error* permission denied error when running ./gophish, used sudo ./gophish to use administrative 
+
+
 *Ref 4: Error running GoPhish*
 
 
@@ -60,12 +64,12 @@ Step 4: Lauch the GoPhish using terminal. (requires admin permission)
 starting phishing server at http://0.0.0.0:80
 starting admin server at https://127.0.0.1:3333
 
-Step 5:Log Into GoPhish using Web browser:
+Step 5: Log Into GoPhish using Web browser:
 
 Firefox > https://127.0.0.1:3333 > Advanced > Accept Risk and continue 
 Enter login: Username:  , Password: 
 
-*Ref 6: GoPhish login Page*
+*Ref 6: GoPhish Login Page*
 
 
 *Ref 7: GoPhish dashboard after login*
