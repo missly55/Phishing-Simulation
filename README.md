@@ -29,7 +29,7 @@ Step 1: Set Up GoPhish on Ubuntu
 
 
 
-Step 2: In the downloads folder the file **gophish-v0.12.1-linux-64bit.zip**  was installed.
+Step 2: In the downloads folder the file **gophish-v0.12.1-linux-64bit.zip**  was installed. You want to open the file without the .zip. 
 
 1. Open Files → Go to Downloads
 2. Right-click gophish-v0.12.1-linux-64bit.zip
@@ -40,15 +40,15 @@ Step 2: In the downloads folder the file **gophish-v0.12.1-linux-64bit.zip**  wa
 
 Step 3: Give GoPhish Permission to Run
 
-- Go to Downloads > gophish-v0.12.1-linux-64bit > Right-click the gophish file.
+- Navigate to Downloads > gophish-v0.12.1-linux-64bit > Right-click the gophish file.
 - Select “Properties” > Permissions tab > Check the box that says “Allow executing file as a program”
 
-*Ref 3:show permission setup*
+*Ref 3: Permission Setup*
 
 
 Step 4: Lauch the GoPhish using terminal. (requires admin permission)
 
-*Error* permission denied error when running ./gophish, used sudo ./gophish to use administrative 
+*Error* permission denied error when running ./gophish, used sudo ./gophish to use administrative privileges.
 
 
 *Ref 4: Error running GoPhish*
@@ -66,8 +66,10 @@ starting admin server at https://127.0.0.1:3333
 
 Step 5: Log Into GoPhish using Web browser:
 
-Firefox > https://127.0.0.1:3333 > Advanced > Accept Risk and continue 
-Enter login: Username:  , Password: 
+1. Open Firefox in the browser type:  https://127.0.0.1:3333.
+2. When it launches Select Advanced > Accept Risk and continue.
+3. The username and password was displayed within terminal.
+     Enter login: Username:  , Password: 
 
 *Ref 6: GoPhish Login Page*
 
