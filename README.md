@@ -68,7 +68,7 @@ Step 4: Lauch the GoPhish using terminal. (requires admin permission)
 
 Step 5: Log Into GoPhish using Web browser:
 
-1. Open Firefox in the browser type:  https://127.0.0.1:3333.
+1. Open Firefox in the browser type:  `https://127.0.0.1:3333`.
 2. When it launches Select Advanced > Accept Risk and continue.
 3. The username and password was displayed within terminal.
      Enter login: Username:  , Password: 
@@ -80,7 +80,7 @@ Step 5: Log Into GoPhish using Web browser:
 
 
 
-downloads folder > gophish-v0.12.1-linux-64bit > right click open terminal
+- Downloads folder > `gophish-v0.12.1-linux-64bit.zip` > Right-Click > Open Terminal.
 
 
 
