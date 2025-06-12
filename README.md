@@ -66,13 +66,6 @@ starting phishing server at http://0.0.0.0:80
 starting admin server at https://127.0.0.1:3333
 ```
 
-
-
-
-`starting phishing server at http://0.0.0.0:80`
-
-`starting admin server at https://127.0.0.1:3333`
-
 Step 5: Log Into GoPhish using Web browser:
 
 1. Open Firefox in the browser type:  `https://127.0.0.1:3333`.
