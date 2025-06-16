@@ -79,14 +79,9 @@ Step 5: Log Into GoPhish using Web browser:
 *Ref 7: GoPhish dashboard after login*
 
 
+- **Restart GoPhish:**
 
-
-
-
-
-continue
-
-- Downloads folder > `gophish-v0.12.1-linux-64bit.zip` > Right-Click > Open Terminal.
+- Navigate to your Downloads folder > `gophish-v0.12.1-linux-64bit.zip` > Right-click inside the folder > "Open Terminal"
 
 
 
