@@ -98,10 +98,73 @@ Step 5: Log Into GoPhish using Web browser:
 
 *Ref 10: GoPhish Profile (test)*
 
+Step 6: Setting up GoPhish and connecting Email server:
 
 - Using Mailtrap for testing phishing emails with GoPhish in a sandbox environment.
 
 *Ref 11: Mailtrap dashboard*
+
+
+*Ref 12: Sending Profile*
+
+
+Step 7: Create an Email Template:
+
+- Fake email for testing to send to users.
+- In GoPhish, **Click Email Templates**.
+- Then **New Template**.
+
+Fill out the Template: (using a fake sense of urgency that phishing emails normally have)
+
+- Name: Fake Login Alert
+
+- Subject: Urgent: Your Account Needs Verification
+
+- From: April Williams <aprilwilliams@example.com>
+
+- Body: 
+
+*Ref 13: Email template*
+
+
+Step 8: Create a Landing Page:
+
+- In GoPhish, **Click Landing Page**
+- Click **New Page**
+- Name Fake Login Page
+- Click **Import Site**
+- Click **Capture Submitted Data and Capture Passwords **
+- Save
+
+*Ref 14: Landing Page*
+
+
+Step 9: Create a Group of Target(Users)
+
+- Go to **Users & Groups.**
+- Click **New Group.**
+- Name: Training Simulation
+- Add Recipients:
+- Save Group
+
+  *Ref 15: Target Group*
+
+  
+Step 10: Launch Campaign
+
+- Go to **Campaign.**
+- Click **New Campaign.**
+- Fill out:
+- Name: Phishing Test #1
+- Email Template:Click the one that was created.
+- Landing Page: Choose Fake Login Page.
+- URL
+- Launch Date:
+- Sending Profile: Choose the one that was created,
+- Groups: Choose the user group you created.
+- Click **Launch Campaign.**
+
+  *Ref 16: Launch Campaign*  
 
 
 
