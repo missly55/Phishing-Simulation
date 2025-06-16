@@ -20,7 +20,7 @@ The aim of this project is to build a practical phishing campaign simulation usi
 - Web Browser – To interact with GoPhish interface
 
 ### Steps:
-Step 1: Set Up GoPhish on Ubuntu
+Step 1: Install GoPhish on Ubuntu
 
 1. Navigate to [GoPhish Releases](https://github.com/gophish/gophish/releases)
 2. Download `gophish-v0.12.1-linux-64bit.zip`
@@ -29,7 +29,7 @@ Step 1: Set Up GoPhish on Ubuntu
 
 
 
-Step 2: In the downloads folder the file `gophish-v0.12.1-linux-64bit.zip`  was installed. You want to open the file without the .zip. 
+Step 2: Extract the GoPhish Zip File 
 
 1. Open Files → Go to Downloads
 2. Right-click `gophish-v0.12.1-linux-64bit.zip`
@@ -38,7 +38,7 @@ Step 2: In the downloads folder the file `gophish-v0.12.1-linux-64bit.zip`  was 
 *Ref 2: File Extraction*
 
 
-Step 3: Give GoPhish Permission to Run
+Step 3: Make GoPhish Executale
 
 - Navigate to Downloads > `gophish-v0.12.1-linux-64bit.zip` > Right-click the gophish file.
 - Select “Properties” > Permissions tab > Check the box that says “Allow executing file as a program”
@@ -46,7 +46,7 @@ Step 3: Give GoPhish Permission to Run
 *Ref 3: Permission Setup*
 
 
-Step 4: Lauch the GoPhish using terminal. (requires admin permission)
+Step 4: Lauch the GoPhish in Terminal (requires admin permission)
 
 *Error* permission denied error when running ./gophish, used sudo ./gophish to use administrative privileges.
 
@@ -66,7 +66,7 @@ starting phishing server at http://0.0.0.0:80
 starting admin server at https://127.0.0.1:3333
 ```
 
-Step 5: Log Into GoPhish using Web browser:
+Step 5: Log Into GoPhish using Web browser
 - **Restart GoPhish:**
 
 - Navigate to your Downloads folder > `gophish-v0.12.1-linux-64bit.zip` > Right-click inside the folder > "Open Terminal"
@@ -91,14 +91,14 @@ Step 5: Log Into GoPhish using Web browser:
 
 **Beginning of the GoPhish Phishing Email:**
 
-- Create a New Sending Profile:
+Step 6: Create a Sending Profile (GoPhish)
 
 - In GoPhish send a phishing email:
 - **Select Sending Profiles > New Profile:**
 
 *Ref 10: GoPhish Profile (test)*
 
-Step 6: Setting up GoPhish and connecting Email server:
+ Setting up GoPhish and connecting Email server:
 
 - Using Mailtrap for testing phishing emails with GoPhish in a sandbox environment.
 
@@ -108,7 +108,7 @@ Step 6: Setting up GoPhish and connecting Email server:
 *Ref 12: Sending Profile*
 
 
-Step 7: Create an Email Template:
+Step 7: Create a Phishing Email Template
 
 - Fake email for testing to send to users.
 - In GoPhish, **Click Email Templates**.
@@ -127,7 +127,7 @@ Fill out the Template: (using a fake sense of urgency that phishing emails norma
 *Ref 13: Email template*
 
 
-Step 8: Create a Landing Page:
+Step 8: Create a Fake Landing Page
 
 - In GoPhish, **Click Landing Page**
 - Click **New Page**
@@ -139,7 +139,7 @@ Step 8: Create a Landing Page:
 *Ref 14: Landing Page*
 
 
-Step 9: Create a Group of Target(Users)
+Step 9: Create a Target Group
 
 - Go to **Users & Groups.**
 - Click **New Group.**
@@ -150,14 +150,14 @@ Step 9: Create a Group of Target(Users)
   *Ref 15: Target Group*
 
   
-Step 10: Launch Campaign
+Step 10: Launch the Campaign
 
 - Go to **Campaign.**
 - Click **New Campaign.**
-- Fill out:
+-Select:
 - Name: Phishing Test #1
-- Email Template:Click the one that was created.
-- Landing Page: Choose Fake Login Page.
+- Email Template: Fake Login
+- Landing Page: Fake Login Page.
 - URL
 - Launch Date:
 - Sending Profile: Choose the one that was created,
@@ -167,7 +167,7 @@ Step 10: Launch Campaign
   *Ref 16: Launch Campaign*  
 
 
-Step 5: Monitor the Results
+Step 5: Monitor Campaign Results
 
 *Ref 17: Campaign Successful* 
 
@@ -176,7 +176,9 @@ Step 5: Monitor the Results
 *Ref 18: Results* 
 
 
-
+- Received an email in Mailtrap from GoPhish after initially encountering the error:
+`max connection attempts exceeded - dial tcp 18.215.44.90:25: i/o timeout — indicating that port 25 was blocked.`
+- To resolve this, I updated the SMTP host in GoPhish to `smtp.mailtrap.io:2525`, which successfully allowed the email to be sent to Mailtrap.
 
 
 
