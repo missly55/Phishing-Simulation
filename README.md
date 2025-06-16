@@ -146,6 +146,7 @@ Step 8: Create a Fake Landing Page
 - Save
 
 *Ref 14: Landing Page*
+
 <img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Landing%20Page.png?raw=true" alt="GoPhish Login Page" width="500"/>
 
 Step 9: Create a Target Group
@@ -174,17 +175,20 @@ Step 10: Launch the Campaign
 - Groups: Choose the user group you created.
 - Click **Launch Campaign.**
 
-  *Ref 16: Launch Campaign*  
-<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Campaign.png?raw=true" alt="GoPhish Login Page" width="500"/>
+  *Ref 16: Launch Campaign*
+  
+<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Campaign.png?raw=true" alt="GoPhish Login Page" width="400"/>
 
 Step 5: Monitor Campaign Results
 
 *Ref 17: Campaign Successful* 
-<img src="https://github.com/missly55/Phishing-Simulation/blob/86c7abb150ea8c817a0e077f1fa42179a5fca868/images/Launch.png?raw=true" alt="GoPhish Login Page" width="500"/>
+
+<img src="https://github.com/missly55/Phishing-Simulation/blob/86c7abb150ea8c817a0e077f1fa42179a5fca868/images/Launch.png?raw=true" alt="GoPhish Login Page" width="400"/>
 
 
 *Ref 18: Results* 
-<img src="https://github.com/missly55/Phishing-Simulation/blob/86c7abb150ea8c817a0e077f1fa42179a5fca868/images/Results.png?raw=true" alt="GoPhish Login Page" width="500"/>
+
+<img src="https://github.com/missly55/Phishing-Simulation/blob/86c7abb150ea8c817a0e077f1fa42179a5fca868/images/Results.png?raw=true" alt="GoPhish Login Page" width="450"/>
 
 - Received an email in Mailtrap from GoPhish after initially encountering the error:
 `max connection attempts exceeded - dial tcp 18.215.44.90:25: i/o timeout — indicating that port 25 was blocked.`
@@ -192,7 +196,8 @@ Step 5: Monitor Campaign Results
 
 
 *Ref 19: Sucessful Email Sent*
-<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Email%20Sent.png?raw=true" alt="Phish Email" width="500"/>
+
+<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Email%20Sent.png?raw=true" alt="Phish Email" width="400"/>
 
 
 
