@@ -73,8 +73,9 @@ Step 5: Log Into GoPhish using Web browser:
 
 *Ref 6: Terminal GoPhish Startup*
 
+
 - Using the browser Open Firefox > Type `https://127.0.0.1:3333`
-- ** A warning message is displayed**
+- A warning message is displayed
 - Click **Advanced**  > Click **Accept the Risk and Continue**.
 
 *Ref 7: GoPhish Login Page*
