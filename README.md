@@ -82,14 +82,16 @@ Step 5: Log Into GoPhish using Web browser
 
 *Ref 7: GoPhish Login Page*
 
+<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Login%20Page.png?raw=true" alt="GoPhish Login Page" width="500"/>
 
 *Ref 8: GoPhish Resetting Password*
 
-
+<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Reset.png?raw=true" alt="GoPhish Password Reset" width="500"/>
 
 
 *Ref 9: GoPhish dashboard after login*
 
+<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Dashboard.png?raw=true" alt="GoPhish Dashboard" width="500"/>
 
 **Beginning of the GoPhish Phishing Email:**
 
@@ -100,15 +102,19 @@ Step 6: Create a Sending Profile (GoPhish)
 
 *Ref 10: GoPhish Profile (test)*
 
+<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Profile%20test.png?raw=true" alt="GoPhish Profile" width="500"/>
+
  Setting up GoPhish and connecting Email server:
 
 - Using Mailtrap for testing phishing emails with GoPhish in a sandbox environment.
 
 *Ref 11: Mailtrap dashboard*
 
+<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Mailtrap.png?raw=true" alt="GoPhish Login Page" width="500"/>
 
 *Ref 12: Sending Profile*
 
+<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Profile%20test.png?raw=true" alt="GoPhish Login Page" width="500"/>
 
 Step 7: Create a Phishing Email Template
 
@@ -128,6 +134,7 @@ Fill out the Template: (using a fake sense of urgency that phishing emails norma
 
 *Ref 13: Email template*
 
+<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Email%20Template.png?raw=true" alt="GoPhish Login Page" width="500"/>
 
 Step 8: Create a Fake Landing Page
 
@@ -139,7 +146,7 @@ Step 8: Create a Fake Landing Page
 - Save
 
 *Ref 14: Landing Page*
-
+<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Landing%20Page.png?raw=true" alt="GoPhish Login Page" width="500"/>
 
 Step 9: Create a Target Group
 
@@ -150,7 +157,8 @@ Step 9: Create a Target Group
 - Save Group
 
   *Ref 15: Target Group*
-
+  
+<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Target%20Group.png?raw=true" alt="GoPhish Login Page" width="500"/>
   
 Step 10: Launch the Campaign
 
@@ -167,22 +175,24 @@ Step 10: Launch the Campaign
 - Click **Launch Campaign.**
 
   *Ref 16: Launch Campaign*  
-
+<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Campaign.png?raw=true" alt="GoPhish Login Page" width="500"/>
 
 Step 5: Monitor Campaign Results
 
 *Ref 17: Campaign Successful* 
-
+<img src="https://github.com/missly55/Phishing-Simulation/blob/86c7abb150ea8c817a0e077f1fa42179a5fca868/images/Launch.png?raw=true" alt="GoPhish Login Page" width="500"/>
 
 
 *Ref 18: Results* 
-
+<img src="https://github.com/missly55/Phishing-Simulation/blob/86c7abb150ea8c817a0e077f1fa42179a5fca868/images/Results.png?raw=true" alt="GoPhish Login Page" width="500"/>
 
 - Received an email in Mailtrap from GoPhish after initially encountering the error:
 `max connection attempts exceeded - dial tcp 18.215.44.90:25: i/o timeout — indicating that port 25 was blocked.`
 - To resolve this, I updated the SMTP host in GoPhish to `smtp.mailtrap.io:2525`, which successfully allowed the email to be sent to Mailtrap.
 
 
+*Ref 19: Sucessful Email Sent*
+<img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Email%20Sent.png?raw=true" alt="Phish Email" width="500"/>
 
 
 
