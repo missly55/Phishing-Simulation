@@ -27,7 +27,7 @@ Step 1: Install GoPhish on Ubuntu
 
 *Ref 1: GoPhish Download*
 
-[GoPhish](https://github.com/missly55/Phishing-Simulation/blob/75c49d2547dc4adbfa89aad5554542e14c2644b7/images/gophish.png)
+![GoPhish](https://github.com/missly55/Phishing-Simulation/blob/75c49d2547dc4adbfa89aad5554542e14c2644b7/images/gophish.png)
 
 Step 2: Extract the GoPhish Zip File 
 
