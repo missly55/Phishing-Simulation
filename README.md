@@ -89,6 +89,24 @@ Step 5: Log Into GoPhish using Web browser:
 *Ref 9: GoPhish dashboard after login*
 
 
+**Beginning of the GoPhish Phishing Email:**
+
+- Create a New Sending Profile:
+
+- In GoPhish send a phishing email:
+- **Select Sending Profiles > New Profile:**
+
+*Ref 10: GoPhish Profile (test)*
+
+
+Mailtrap for simulation:
+
+*Ref 11: Mailtrap*
+
+
+
+
+
 
 
 
