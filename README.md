@@ -101,7 +101,7 @@ Step 5: Log Into GoPhish using Web browser:
 
 - Mailtrap for testing with GoPhish in a sandbox environment for testing for phishing emails.
 
-*Ref 11: Mailtrap*
+*Ref 11: Mailtrap dashboard*
 
 
 
