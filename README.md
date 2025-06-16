@@ -27,7 +27,7 @@ Step 1: Install GoPhish on Ubuntu
 
 *Ref 1: GoPhish Download*
 
-
+[GoPhish](https://github.com/missly55/Phishing-Simulation/blob/75c49d2547dc4adbfa89aad5554542e14c2644b7/images/gophish.png)
 
 Step 2: Extract the GoPhish Zip File 
 
@@ -37,6 +37,7 @@ Step 2: Extract the GoPhish Zip File
 
 *Ref 2: File Extraction*
 
+![alt text](image-url)
 
 Step 3: Make GoPhish Executale
 
@@ -45,20 +46,23 @@ Step 3: Make GoPhish Executale
 
 *Ref 3: Permission Setup*
 
+![alt text](image-url)
 
 Step 4: Lauch the GoPhish in Terminal (requires admin permission)
 
 *Error* permission denied error when running ./gophish, used sudo ./gophish to use administrative privileges.
 
+![alt text](image-url)
 
 *Ref 4: Error running GoPhish*
 
+![alt text](image-url)
 
 - Open terminal in the GoPhish folder and run command `sudo ./gophish` to start the program.
 
  *Ref 5: Successful running of GoPhish*
 
-
+![alt text](image-url)
 
 **Tells if the GoPhish is running correctly:**
 ```bash
@@ -73,6 +77,7 @@ Step 5: Log Into GoPhish using Web browser
 
 *Ref 6: Terminal GoPhish Startup*
 
+![alt text](image-url)
 
 - Using the browser Open Firefox > Type `https://127.0.0.1:3333`
 - A warning message is displayed
