@@ -37,7 +37,7 @@ Step 2: Extract the GoPhish Zip File
 
 *Ref 2: File Extraction*
 
-![alt text](image-url)
+<img src="https://github.com/missly55/Phishing-Simulation/blob/9a9336c4e217fddeb0aa1dded2e72804eac10016/images/File%20extract.png?raw=true" alt="File Extract" width="500"/>
 
 Step 3: Make GoPhish Executale
 
@@ -46,23 +46,25 @@ Step 3: Make GoPhish Executale
 
 *Ref 3: Permission Setup*
 
-![alt text](image-url)
+<img src="https://github.com/missly55/Phishing-Simulation/blob/9a9336c4e217fddeb0aa1dded2e72804eac10016/images/Permission%20setup.png?raw=true" alt="Permission" width="500"/>
 
 Step 4: Lauch the GoPhish in Terminal (requires admin permission)
 
 *Error* permission denied error when running ./gophish, used sudo ./gophish to use administrative privileges.
 
-![alt text](image-url)
+<img src=" ?raw=true" alt="Error" width="550"/>
 
 *Ref 4: Error running GoPhish*
 
-![alt text](image-url)
+<img src=" ?raw=true" alt="Error Running GoPhish" width="500"/>
+
+
 
 - Open terminal in the GoPhish folder and run command `sudo ./gophish` to start the program.
 
  *Ref 5: Successful running of GoPhish*
 
-![alt text](image-url)
+<img src=" ?raw=true" alt="Successful GoPhish" width="500"/>
 
 **Tells if the GoPhish is running correctly:**
 ```bash
@@ -77,7 +79,7 @@ Step 5: Log Into GoPhish using Web browser
 
 *Ref 6: Terminal GoPhish Startup*
 
-![alt text](image-url)
+<img src=" ?raw=true" alt="GoPhish Start-Up" width="500"/>
 
 - Using the browser Open Firefox > Type `https://127.0.0.1:3333`
 - A warning message is displayed
