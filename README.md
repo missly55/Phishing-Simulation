@@ -167,6 +167,16 @@ Step 10: Launch Campaign
   *Ref 16: Launch Campaign*  
 
 
+Step 5: Monitor the Results
+
+*Ref 17: Campaign Successful* 
+
+
+
+*Ref 18: Results* 
+
+
+
 
 
 
