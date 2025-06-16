@@ -67,21 +67,30 @@ starting admin server at https://127.0.0.1:3333
 ```
 
 Step 5: Log Into GoPhish using Web browser:
-
-1. Open Firefox in the browser type:  `https://127.0.0.1:3333`.
-2. When it launches Select Advanced > Accept Risk and continue.
-3. The username and password was displayed within terminal.
-     Enter login: Username:  , Password: 
-
-*Ref 6: GoPhish Login Page*
-
-
-*Ref 7: GoPhish dashboard after login*
-
-
 - **Restart GoPhish:**
 
 - Navigate to your Downloads folder > `gophish-v0.12.1-linux-64bit.zip` > Right-click inside the folder > "Open Terminal"
+
+*Ref 6: Terminal GoPhish Startup*
+
+- Using the browser Open Firefox > Type `https://127.0.0.1:3333`
+- ** A warning message is displayed**
+- Click **Advanced**  > Click **Accept the Risk and Continue**.
+
+*Ref 7: GoPhish Login Page*
+
+
+*Ref 8: GoPhish Resetting Password*
+
+
+
+
+*Ref 9: GoPhish dashboard after login*
+
+
+
+
+
 
 
 
