@@ -54,17 +54,12 @@ Step 4: Lauch the GoPhish in Terminal (requires admin permission)
 
 <img src="https://github.com/missly55/Phishing-Simulation/blob/836b2e7c7caa1d2ba283abfd76d5e3987493c90e/images/Error.png?raw=true" alt="Error" width="500"/>
 
-*Ref 4: Error running GoPhish*
-
-<img src=" ?raw=true" alt="Error Running GoPhish" width="500"/>
-
-
 
 - Open terminal in the GoPhish folder and run command `sudo ./gophish` to start the program.
 
  *Ref 5: Successful running of GoPhish*
 
-<img src=" ?raw=true" alt="Successful GoPhish" width="500"/>
+<img src="https://github.com/missly55/Phishing-Simulation/blob/3e19fa45e796062b14330cbaa31b587ce9299590/images/Sucessful%20running%20GoPhish.png?raw=true" alt="Successful GoPhish" width="500"/>
 
 **Tells if the GoPhish is running correctly:**
 ```bash
@@ -79,7 +74,7 @@ Step 5: Log Into GoPhish using Web browser
 
 *Ref 6: Terminal GoPhish Startup*
 
-<img src=" ?raw=true" alt="GoPhish Start-Up" width="500"/>
+<img src="https://github.com/missly55/Phishing-Simulation/blob/3e19fa45e796062b14330cbaa31b587ce9299590/images/Restart.png?raw=true" alt="GoPhish Start-Up" width="500"/>
 
 - Using the browser Open Firefox > Type `https://127.0.0.1:3333`
 - A warning message is displayed
