@@ -52,7 +52,7 @@ Step 4: Lauch the GoPhish in Terminal (requires admin permission)
 
 *Error* permission denied error when running ./gophish, used sudo ./gophish to use administrative privileges.
 
-<img src=" ?raw=true" alt="Error" width="550"/>
+<img src="https://github.com/missly55/Phishing-Simulation/blob/836b2e7c7caa1d2ba283abfd76d5e3987493c90e/images/Error.png?raw=true" alt="Error" width="500"/>
 
 *Ref 4: Error running GoPhish*
 
