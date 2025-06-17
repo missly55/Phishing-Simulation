@@ -41,8 +41,8 @@ Step 2: Extract the GoPhish Zip File
 
 Step 3: Make GoPhish Executale
 
-- Navigate to Downloads > `gophish-v0.12.1-linux-64bit.zip` > Right-click the gophish file.
-- Select “Properties” > Permissions tab > Check the box that says “Allow executing file as a program”
+1. Navigate to Downloads > `gophish-v0.12.1-linux-64bit.zip` > Right-click the gophish file.
+2. Select “Properties” > Permissions tab > Check the box that says “Allow executing file as a program”
 
 *Ref 3: Permission Setup*
 
@@ -55,7 +55,7 @@ Step 4: Lauch the GoPhish in Terminal (requires admin permission)
 <img src="https://github.com/missly55/Phishing-Simulation/blob/836b2e7c7caa1d2ba283abfd76d5e3987493c90e/images/Error.png?raw=true" alt="Error" width="500"/>
 
 
-- Open terminal in the GoPhish folder and run command `sudo ./gophish` to start the program.
+1. Open terminal in the GoPhish folder and run command `sudo ./gophish` to start the program.
 
  *Ref 5: Successful running of GoPhish*
 
@@ -70,15 +70,15 @@ starting admin server at https://127.0.0.1:3333
 Step 5: Log Into GoPhish using Web browser
 - **Restart GoPhish:**
 
-- Navigate to your Downloads folder > `gophish-v0.12.1-linux-64bit.zip` > Right-click inside the folder > "Open Terminal"
+  1. Navigate to your Downloads folder > `gophish-v0.12.1-linux-64bit.zip` > Right-click inside the folder > "Open Terminal"
 
 *Ref 6: Terminal GoPhish Startup*
 
 <img src="https://github.com/missly55/Phishing-Simulation/blob/3e19fa45e796062b14330cbaa31b587ce9299590/images/Restart.png?raw=true" alt="GoPhish Start-Up" width="500"/>
 
-- Using the browser Open Firefox > Type `https://127.0.0.1:3333`
-- A warning message is displayed
-- Click **Advanced**  > Click **Accept the Risk and Continue**.
+2. Using the browser Open Firefox > Type `https://127.0.0.1:3333`
+3.  A warning message is displayed
+4.  Click **Advanced**  > Click **Accept the Risk and Continue**.
 
 *Ref 7: GoPhish Login Page*
 
@@ -97,8 +97,8 @@ Step 5: Log Into GoPhish using Web browser
 
 Step 6: Create a Sending Profile (GoPhish)
 
-- In GoPhish send a phishing email:
-- **Select Sending Profiles > New Profile:**
+1. In GoPhish send a phishing email:
+2. **Select Sending Profiles > New Profile:**
 
 *Ref 10: GoPhish Profile (test)*
 
@@ -106,7 +106,7 @@ Step 6: Create a Sending Profile (GoPhish)
 
  Setting up GoPhish and connecting Email server:
 
-- Using Mailtrap for testing phishing emails with GoPhish in a sandbox environment.
+3. Using Mailtrap for testing phishing emails with GoPhish in a sandbox environment.
 
 *Ref 11: Mailtrap dashboard*
 
@@ -119,8 +119,8 @@ Step 6: Create a Sending Profile (GoPhish)
 Step 7: Create a Phishing Email Template
 
 - Fake email for testing to send to users.
-- In GoPhish, **Click Email Templates**.
-- Then **New Template**.
+  1. In GoPhish, **Click Email Templates**.
+  2. Then **New Template**.
 
 Fill out the Template: (using a fake sense of urgency that phishing emails normally have)
 
@@ -138,12 +138,12 @@ Fill out the Template: (using a fake sense of urgency that phishing emails norma
 
 Step 8: Create a Fake Landing Page
 
-- In GoPhish, **Click Landing Page**
-- Click **New Page**
-- Name Fake Login Page
-- Click **Import Site**
-- Click **Capture Submitted Data and Capture Passwords **
-- Save
+1. In GoPhish, **Click Landing Page**
+2. Click **New Page**
+3. Name Fake Login Page
+4. Click **Import Site**
+5. Click **Capture Submitted Data and Capture Passwords **
+6. Save
 
 *Ref 14: Landing Page*
 
@@ -151,11 +151,11 @@ Step 8: Create a Fake Landing Page
 
 Step 9: Create a Target Group
 
-- Go to **Users & Groups.**
-- Click **New Group.**
-- Name: Training Simulation
-- Add Recipients:
-- Save Group
+1. Go to **Users & Groups.**
+2. Click **New Group.**
+3. Name: Training Simulation
+4. Add Recipients:
+5. Save Group
 
   *Ref 15: Target Group*
   
@@ -163,12 +163,12 @@ Step 9: Create a Target Group
   
 Step 10: Launch the Campaign
 
-- Go to **Campaign.**
-- Click **New Campaign.**
--Select:
-- Name: Phishing Test #1
-- Email Template: Fake Login
-- Landing Page: Fake Login Page.
+1. Go to **Campaign.**
+2. Click **New Campaign.**
+- Select:
+3. Name: Phishing Test #1
+4. Email Template: Fake Login
+5. Landing Page: Fake Login Page.
 - URL
 - Launch Date:
 - Sending Profile: Choose the one that was created,
@@ -179,7 +179,7 @@ Step 10: Launch the Campaign
   
 <img src="https://github.com/missly55/Phishing-Simulation/blob/fe64e293a61186e6dd70b4a121692e5e1e76df45/images/Campaign.png?raw=true" alt="GoPhish Login Page" width="400"/>
 
-Step 5: Monitor Campaign Results
+Step 11: Monitor Campaign Results
 
 *Ref 17: Campaign Successful* 
 
